@@ -50,9 +50,17 @@ msgstr ": 使用"
 msgid "(from {0})"
 msgstr "（{0}より）"
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:352
+msgid "(pre-release)"
+msgstr ""
+
 #: packages/admin/src/components/settings/PasskeyItem.tsx:157
 msgid "(synced)"
 msgstr "（同期済み）"
+
+#: packages/admin/src/components/RegistryPluginDetail.tsx:355
+msgid "(too new)"
+msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:312
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:309
@@ -950,7 +958,7 @@ msgstr "デバイスを認可"
 msgid "Authorizing..."
 msgstr "認可中..."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:346
+#: packages/admin/src/components/RegistryPluginDetail.tsx:458
 msgid "Authors"
 msgstr ""
 
@@ -1018,7 +1026,7 @@ msgstr "ログインに戻る"
 msgid "Back to marketplace"
 msgstr "マーケットプレイスに戻る"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:447
+#: packages/admin/src/components/RegistryPluginDetail.tsx:559
 msgid "Back to plugins"
 msgstr ""
 
@@ -1845,7 +1853,7 @@ msgstr "日付形式"
 msgid "Decimal number"
 msgstr "小数"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:411
+#: packages/admin/src/components/RegistryPluginDetail.tsx:523
 msgid "Declared permissions"
 msgstr ""
 
@@ -2568,6 +2576,10 @@ msgstr "セクションの保存エラー"
 msgid "Error updating widget"
 msgstr ""
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:415
+msgid "Every published release of this plugin has been withdrawn or could not be verified. Check back later, or contact the publisher."
+msgstr ""
+
 #: packages/admin/src/components/WordPressImport.tsx:1846
 msgid "Exists"
 msgstr "既存"
@@ -2820,7 +2832,7 @@ msgid "Failed to import media"
 msgstr ""
 
 #: packages/admin/src/lib/api/marketplace.ts:160
-#: packages/admin/src/lib/api/registry.ts:450
+#: packages/admin/src/lib/api/registry.ts:455
 msgid "Failed to install plugin"
 msgstr ""
 
@@ -2978,7 +2990,7 @@ msgid "Failed to set entry terms"
 msgstr ""
 
 #: packages/admin/src/lib/api/marketplace.ts:192
-#: packages/admin/src/lib/api/registry.ts:589
+#: packages/admin/src/lib/api/registry.ts:594
 msgid "Failed to uninstall plugin"
 msgstr ""
 
@@ -3004,7 +3016,7 @@ msgid "Failed to update domain"
 msgstr "ドメインの更新に失敗しました"
 
 #: packages/admin/src/lib/api/marketplace.ts:176
-#: packages/admin/src/lib/api/registry.ts:521
+#: packages/admin/src/lib/api/registry.ts:526
 msgid "Failed to update plugin"
 msgstr ""
 
@@ -3398,7 +3410,7 @@ msgid "Incompatible"
 msgstr "非互換"
 
 #. placeholder {0}: formatDate(release.indexedAt)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:263
+#: packages/admin/src/components/RegistryPluginDetail.tsx:325
 msgid "indexed {0}"
 msgstr ""
 
@@ -3465,7 +3477,7 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:193
-#: packages/admin/src/components/RegistryPluginDetail.tsx:278
+#: packages/admin/src/components/RegistryPluginDetail.tsx:373
 msgid "Install"
 msgstr "インストール"
 
@@ -3480,7 +3492,7 @@ msgstr "インストールがブロックされました"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:261
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:174
 #: packages/admin/src/components/RegistryBrowse.tsx:198
-#: packages/admin/src/components/RegistryPluginDetail.tsx:270
+#: packages/admin/src/components/RegistryPluginDetail.tsx:365
 msgid "Installed"
 msgstr "インストール済み"
 
@@ -4334,6 +4346,10 @@ msgstr "比較するフィールドがありません"
 msgid "No headings in document"
 msgstr "ドキュメントに見出しがありません"
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:413
+msgid "No installable releases"
+msgstr ""
+
 #: packages/admin/src/components/InviteAcceptPage.tsx:159
 msgid "No invite token provided"
 msgstr ""
@@ -4798,7 +4814,7 @@ msgstr ""
 msgid "Plugin not found"
 msgstr "プラグインが見つかりません"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:232
+#: packages/admin/src/components/RegistryPluginDetail.tsx:293
 msgid "Plugin not found. The publisher handle or slug may be incorrect."
 msgstr ""
 
@@ -4823,7 +4839,7 @@ msgstr ""
 msgid "Plugin uninstalled"
 msgstr "プラグインをアンインストールしました"
 
-#: packages/admin/src/lib/api/registry.ts:541
+#: packages/admin/src/lib/api/registry.ts:546
 msgid "Plugin update requires re-consent"
 msgstr ""
 
@@ -4851,6 +4867,10 @@ msgstr "投稿"
 #: packages/admin/src/components/settings/GeneralSettings.tsx:295
 msgid "Posts Per Page"
 msgstr "ページあたりの投稿数"
+
+#: packages/admin/src/components/RegistryPluginDetail.tsx:327
+msgid "Pre-release"
+msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:170
 msgid "Preparing registration..."
@@ -4929,7 +4949,7 @@ msgstr "公開日: {0}"
 msgid "Published At"
 msgstr "公開日時"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:258
+#: packages/admin/src/components/RegistryPluginDetail.tsx:319
 msgid "Published by"
 msgstr ""
 
@@ -5051,7 +5071,7 @@ msgstr "登録がキャンセルされたかタイムアウトしました。も
 msgid "Registry"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:317
+#: packages/admin/src/components/RegistryPluginDetail.tsx:429
 msgid "Release is too new to install"
 msgstr ""
 
@@ -5642,7 +5662,7 @@ msgstr "このプラグインがセキュリティ監査で安全でない可能
 msgid "Security audit passed"
 msgstr "セキュリティ監査に合格"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:379
+#: packages/admin/src/components/RegistryPluginDetail.tsx:491
 msgid "Security contacts"
 msgstr ""
 
@@ -6320,7 +6340,7 @@ msgstr "このパスキーはこのデバイスに既に登録されています
 msgid "This plugin requires no special permissions."
 msgstr "このプラグインに特別な権限は不要です。"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:303
+#: packages/admin/src/components/RegistryPluginDetail.tsx:398
 msgid "This publisher claims a name they couldn't prove they own — possibly impersonating someone else. Install is disabled. If you know the publisher and trust them, ask them to fix their identity setup before retrying."
 msgstr ""
 
@@ -6912,7 +6932,7 @@ msgid "Validation"
 msgstr "バリデーション"
 
 #: packages/admin/src/components/RegistryBrowse.tsx:186
-#: packages/admin/src/components/RegistryPluginDetail.tsx:253
+#: packages/admin/src/components/RegistryPluginDetail.tsx:314
 msgid "Verified publisher"
 msgstr ""
 
@@ -6930,11 +6950,12 @@ msgid "Verifying..."
 msgstr "確認中..."
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:321
+#: packages/admin/src/components/RegistryPluginDetail.tsx:334
 msgid "Version"
 msgstr "バージョン"
 
 #. placeholder {0}: release.version
-#: packages/admin/src/components/RegistryPluginDetail.tsx:263
+#: packages/admin/src/components/RegistryPluginDetail.tsx:325
 msgid "Version {0}"
 msgstr ""
 
@@ -6962,11 +6983,11 @@ msgstr "公開済みの{title}を表示"
 msgid "View Site"
 msgstr "サイトを表示"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:337
+#: packages/admin/src/components/RegistryPluginDetail.tsx:449
 msgid "View source"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:538
+#: packages/admin/src/components/RegistryPluginDetail.tsx:681
 msgid "View the {license} license on spdx.org"
 msgstr ""
 
@@ -6988,7 +7009,7 @@ msgstr "警告"
 msgid "We couldn't connect to a WordPress site at {0}. This could mean the site isn't WordPress, the REST API is disabled, or the site isn't accessible."
 msgstr "{0}のWordPressサイトに接続できませんでした。サイトがWordPressでない、REST APIが無効、またはサイトにアクセスできない可能性があります。"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:301
+#: packages/admin/src/components/RegistryPluginDetail.tsx:396
 msgid "We couldn't verify this publisher's identity"
 msgstr ""
 
@@ -7014,7 +7035,7 @@ msgid "WebAuthn is not supported in this browser"
 msgstr "このブラウザはWebAuthnに対応していません"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:226
-#: packages/admin/src/components/RegistryPluginDetail.tsx:362
+#: packages/admin/src/components/RegistryPluginDetail.tsx:474
 msgid "Website"
 msgstr "ウェブサイト"
 
@@ -7246,7 +7267,7 @@ msgid "Your Role"
 msgstr "あなたのロール"
 
 #. placeholder {0}: formatHoldback(config.policy?.minimumReleaseAgeSeconds ?? 0)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:319
+#: packages/admin/src/components/RegistryPluginDetail.tsx:431
 msgid "Your site requires releases to be at least {0} old before they can be installed. This release will become installable later."
 msgstr ""
 
